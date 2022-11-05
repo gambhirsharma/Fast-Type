@@ -5,6 +5,7 @@
 
 
 ## Installation
+> **Note**: Currently Fast-Type don't support in Windows system.  
 
 ### Install From Source
 
@@ -35,4 +36,4 @@ FastType
 # How to contribute to this Project?
 
 
-> **Note**: Currently Fast-Type don't support in Windows system.  
+
