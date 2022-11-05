@@ -31,3 +31,8 @@ FastType
 ```  
   
 **Enjoy typing**
+
+# How to contribute to this Project?
+
+
+> **Note**: Currently Fast-Type don't support in Windows system.  
