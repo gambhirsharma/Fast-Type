@@ -5,7 +5,10 @@
 
 
 ## Installation
-> **Note**: Currently Fast-Type don't support in Windows system.  
+> **Note**: Currently Fast-Type don't natively support in Windows system.  
+
+** Use WSL(Windows Subsystem for Linux) if you want to run this terminal game in your's windows system.
+  
 
 ### Install From Source
 
