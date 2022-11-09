@@ -1,7 +1,12 @@
-# <p align="center">  <img src="https://user-images.githubusercontent.com/69895353/200110538-20d11e39-dcb7-42c2-89f1-5a79188125ad.png" width="400px"/>  </p>
+# <p align="center">  <img src="https://user-images.githubusercontent.com/69895353/200911653-203af161-a56b-42ca-b3f8-8d1d6ec62956.png" width="400px"/>  </p>
+
+
+
+
+
 
 # <p align="center"> Fast-Type </p>
-### <p align="center"> A terminal-base Typing Game for UNIX users. Fuck Windows !!</p>
+### <p align="center"> A terminal-base Typing Game for UNIX users.</p>
 
 
 ## Installation
