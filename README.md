@@ -50,3 +50,6 @@ FastType
 ```
 
 **Enjoy typing**
+
+## Contributors
+[![Contributors](https://contrib.rocks/image?repo=gambhirsharma/Fast-Type)](https://github.com/gambhirsharma/Fast-Type/graphs/contributors)
