@@ -72,7 +72,7 @@ sudo apt install git make g++ libncurses5-dev libncursesw5-dev
 sudo apt-get install libncurses5-dev libncursesw5-dev 
 -->
 
-Now your windows system is redy for building the project. Follow the [Install from Source](section-1) to build project form source code.
+Now your windows system is redy for building the project. Follow the [Install from Source](#section-1) to build project form source code.
 
 **Enjoy typing**
 
