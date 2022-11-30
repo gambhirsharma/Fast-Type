@@ -10,6 +10,13 @@
   <img src="https://img.shields.io/github/languages/code-size/gambhirsharma/Fast-Type">
 </p>
 
+## 👇🏽 Prerequisites
+
+Before installation, please make sure you have already installed the following tools:
+* Git
+* Linux system (If you are windows user use WSL)
+* make
+
 ## Installation
 
 > **Note**: Currently Fast-Type don't natively support in Windows system.
