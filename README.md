@@ -17,11 +17,11 @@ Before installation, please make sure you have already installed the following t
 * Linux system (If you are windows user use WSL)
 * make
 
-## Installation
 
-> **Note**: Currently Fast-Type don't natively support in Windows system.
+## 🛠️ Installation 
 
-\*\* Use WSL(Windows Subsystem for Linux) if you want to run this terminal game in your's windows system.
+> **Note**: Fast-Type don't natively support in Windows system. Use WSL(Windows Subsystem for Linux) if you are Windows user.
+
 
 ### Install From Source
 
@@ -55,6 +55,26 @@ Now you could run FastType from anywhere with
 ```sh
 FastType
 ```
+
+## Setup WLS (Windows Users)
+* Download any WSL of you choice. I chose Ubuntu
+
+<img src="https://user-images.githubusercontent.com/69895353/204749851-9cc25f82-bde2-4bcf-9407-a26e07cf2c12.png" width="400px"/>
+
+* Go to Windows Features by typing ``Turn Windows features on or off`` in search bar. Then search for ``Windows Subsystem for linux`` and select it.
+
+<img src="https://user-images.githubusercontent.com/69895353/204751029-531a8036-a24d-4747-ab4d-cdb6a73ff0ab.png" width="600px"/> <img src="https://user-images.githubusercontent.com/69895353/204751058-f7fa67ec-a0ae-4123-a2c2-314fdf0064fe.png" width="400px"/>
+
+* Now install all dependencies
+```
+sudo apt install git make g++ libncurses5-dev libncursesw5-dev
+```
+<!-- if this not work
+sudo apt-get install libncurses5-dev libncursesw5-dev 
+-->
+
+Follow the installation above to build project form source code.
+
 **Enjoy typing**
 
 ## 🛡️ License
