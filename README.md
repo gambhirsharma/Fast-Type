@@ -1,6 +1,6 @@
-# <p align="center"> <img src="https://user-images.githubusercontent.com/69895353/200911653-203af161-a56b-42ca-b3f8-8d1d6ec62956.png" width="400px"/> </p>
+# <p align="center"> <img src="https://user-images.githubusercontent.com/69895353/200911653-203af161-a56b-42ca-b3f8-8d1d6ec62956.png" width="300px"/> </p>
 
-# <p align="center"> Fast-Type </p>
+# <p align="center"> Fast-Type 
 
 ### <p align="center"> A terminal-base Typing Game for UNIX users.</p>
 
@@ -51,5 +51,8 @@ FastType
 
 **Enjoy typing**
 
-## Contributors
+## 💪🏽 Thanks to all Contributors
+
+Thanks a lot for spending your time helping Fast-Type grow. Thanks a lot! Keep rocking🍻
+
 [![Contributors](https://contrib.rocks/image?repo=gambhirsharma/Fast-Type)](https://github.com/gambhirsharma/Fast-Type/graphs/contributors)
