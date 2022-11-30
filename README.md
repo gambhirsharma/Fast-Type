@@ -23,8 +23,7 @@ Before installation, please make sure you have already installed the following t
 > **Note**: Fast-Type don't natively support in Windows system. Use WSL(Windows Subsystem for Linux) if you are Windows user.
 
 
-### Install From Source
-
+### <a name="section-1"> Install from Source </a>
 Open your terminal in your preferred directory and clone this repository:
 
 ```sh
@@ -65,7 +64,7 @@ FastType
 
 <img src="https://user-images.githubusercontent.com/69895353/204751029-531a8036-a24d-4747-ab4d-cdb6a73ff0ab.png" width="600px"/> <img src="https://user-images.githubusercontent.com/69895353/204751058-f7fa67ec-a0ae-4123-a2c2-314fdf0064fe.png" width="400px"/>
 
-* Now install all dependencies
+* Open WSL and install all dependencies
 ```
 sudo apt install git make g++ libncurses5-dev libncursesw5-dev
 ```
@@ -73,7 +72,7 @@ sudo apt install git make g++ libncurses5-dev libncursesw5-dev
 sudo apt-get install libncurses5-dev libncursesw5-dev 
 -->
 
-Follow the installation above to build project form source code.
+Now your windows system is redy for building the project. Follow the [Install from Source](section-1) to build project form source code.
 
 **Enjoy typing**
 
