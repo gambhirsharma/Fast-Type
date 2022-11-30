@@ -14,7 +14,7 @@ int main(int argc, const char* argv[]) {
         bool execute = false;
         bool shuffle = true;
 
-        if (argc == 1) {  // if no argument passed to typon, start game
+        if (argc == 1) {  // if no argument passed to FastType, start game
             execute = true;
         } else {
             for (auto i = 1; i < argc; ++i) {
@@ -63,31 +63,31 @@ int main(int argc, const char* argv[]) {
                     shuffle = false;
                     execute = true;
                 } else if (!strcmp(argv[i], "-new") and (argc == 2)) {
-                    // create a script links to the typon binary in the current
+                    // create a script links to the FastType binary in the current
                     // directory
                     char* real_path = realpath(".", NULL);
-                    string typon_sh_path = string(real_path) + "/typon_run.sh";
-                    ofstream newtypon(typon_sh_path);
+                    string FastType_sh_path = string(real_path) + "/FastType_run.sh";
+                    ofstream newFastType(FastType_sh_path);
                     string run_sh_content =
                         ("if [ \"$1\" = \"-path\" ] && [ $# -eq 1 ]; then\n"
-                         "\techo \"Typon files location: " +
+                         "\techo \"FastType files location: " +
                          string(real_path) +
                          "\"\n"
                          "elif [ \"$1\" = \"-new\" ]; then\n"
                          "\t:\n"
                          "elif [ \"$1\" != \"\" ]; then\n"
                          "\t" +
-                         real_path + "/typon $1 $2 $3 $4 $5 -path " +
+                         real_path + "/FastType $1 $2 $3 $4 $5 -path " +
                          real_path +
                          "\n"
                          "else\n"
                          "\t" +
-                         real_path + "/typon -path " + real_path + "\nfi");
-                    newtypon << run_sh_content;
-                    newtypon.close();
-                    // chmod((typon_sh_path).c_str(), S_IWUSR);
+                         real_path + "/FastType -path " + real_path + "\nfi");
+                    newFastType << run_sh_content;
+                    newFastType.close();
+                    // chmod((FastType_sh_path).c_str(), S_IWUSR);
                 } else {
-                    printf("Typon: undefined flag: %s\n", argv[i]);
+                    printf("FastType: undefined flag: %s\n", argv[i]);
                 }
             }
         }
