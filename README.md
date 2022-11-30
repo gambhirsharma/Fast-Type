@@ -16,7 +16,7 @@ Before installation, please make sure you have already installed the following t
 * Git
 * Linux system (If you are windows user use WSL)
 * make
-
+* g++
 
 ## 🛠️ Installation 
 
@@ -74,7 +74,8 @@ sudo apt-get install libncurses5-dev libncursesw5-dev
 
 Now your windows system is redy for building the project. Follow the [Install from Source](#section-1) to build project form source code.
 
-**Enjoy typing**
+## <p align="center">**** **Enjoy typing**  ****</p>
+
 
 ## 🛡️ License
 
