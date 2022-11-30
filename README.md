@@ -48,8 +48,12 @@ Now you could run FastType from anywhere with
 ```sh
 FastType
 ```
-
 **Enjoy typing**
+
+## 🛡️ License
+
+Fast-Type is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## 💪🏽 Thanks to all Contributors
 
