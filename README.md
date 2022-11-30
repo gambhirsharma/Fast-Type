@@ -4,6 +4,12 @@
 
 ### <p align="center"> A terminal-base Typing Game for UNIX users.</p>
 
+<p align="center">
+  <img src="https://img.shields.io/github/license/gambhirsharma/Fast-Type">
+  <img src="https://img.shields.io/github/languages/top/gambhirsharma/Fast-Type">
+  <img src="https://img.shields.io/github/languages/code-size/gambhirsharma/Fast-Type">
+</p>
+
 ## Installation
 
 > **Note**: Currently Fast-Type don't natively support in Windows system.
