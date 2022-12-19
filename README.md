@@ -55,7 +55,11 @@ Now you could run FastType from anywhere with
 FastType
 ```
 
-## Setup WLS (Windows Users)
+
+<details>
+<summary> Setup using WLS (Windows Users) </summary>
+<br>
+
 * Download any WSL of you choice. I chose Ubuntu
 
 <img src="https://user-images.githubusercontent.com/69895353/204749851-9cc25f82-bde2-4bcf-9407-a26e07cf2c12.png" width="400px"/>
@@ -73,6 +77,10 @@ sudo apt-get install libncurses5-dev libncursesw5-dev
 -->
 
 Now your windows system is redy for building the project. Follow the [Install from Source](#section-1) to build project form source code.
+
+
+</details>
+
 
 ## <p align="center">**** **Enjoy typing**  ****</p>
 
