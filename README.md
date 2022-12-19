@@ -13,7 +13,7 @@
 ## 👇🏽 Prerequisites
 
 Before installation, please make sure you have already installed the following tools:
-* Git
+* git
 * Linux system (If you are windows user use WSL)
 * make
 * g++
